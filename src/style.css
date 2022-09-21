@@ -14,7 +14,7 @@ h3 {
 }
 h1, h2, h3 {
     text-align: center;
-    margin: 0;
+    margin-bottom: 10px;
 }
 :root{
     --primary-color: #2881e8;
@@ -70,11 +70,15 @@ p {
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
-    margin: 10px;
 }
+
 nav {
     margin-bottom: 40px;
 }
-.container-fluid{
-    
+@media (max-width:767.98px){
+  .navigator-links a{
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    padding: 10px 5px;
+  }
 }
